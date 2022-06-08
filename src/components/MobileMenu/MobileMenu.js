@@ -85,7 +85,6 @@ position:absolute;
 top:10px;
 right:0px;
 padding:16px;
-background:transparent;
-border:none;
+
 `
 export default MobileMenu;
