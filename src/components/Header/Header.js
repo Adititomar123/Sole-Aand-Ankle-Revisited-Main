@@ -63,7 +63,7 @@ border-bottom: 1px solid ${COLORS.gray[300]};
 display:flex;
 padding:20px 32px;
 align-items:baseline;
-height:72px;
+overflow:auto;
 
   @media ${QUERIES.tabletAndSmaller}{
     justify-content:space-between;
@@ -79,7 +79,7 @@ height:72px;
 
 const DesktopNav = styled.nav`
 display:flex;
-gap:48px;
+gap: clamp(1rem, 9.2vw - 4rem, 3rem);
 margin: 0 48px;
 @media ${QUERIES.tabletAndSmaller}{
   display:none;
